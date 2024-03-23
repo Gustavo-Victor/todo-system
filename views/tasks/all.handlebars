@@ -1,0 +1,16 @@
+<div class="container">
+    <h1 class="center">All tasks</h1>
+
+    {{#if empty}}
+        <p class="center">There are no tasks yet.</p>
+    {{/if}}
+
+    <ul class="tasks">
+        {{#each tasks}}
+            {{> task}}
+        {{/each}}
+    </ul>
+
+    <a href="/tasks/add" class="body-link center">New task</a>
+    <hr/>
+</div>

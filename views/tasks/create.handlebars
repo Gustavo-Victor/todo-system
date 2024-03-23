@@ -1,0 +1,20 @@
+<div class="container">
+    <h1 class="center">Add Task</h1>
+    <form action="/tasks/save" method="post" class="form" id="create-task-form">
+        <div class="form-group">
+            <label for="title">Title: </label>
+            <input type="text" name="title" id="title" minlength="5" maxlength="70" placeholder="Task title..." required />
+        </div>
+
+        <div class="form-group">
+            <label for="description">Description: </label>
+            <input type="text" name="description" id="description" minlength="10" maxlength="120" placeholder="Task description..." />
+        </div>
+
+        <div class="form-group">
+            <button class="body-button btn-submit" id="submit" type="submit">Add</button>        
+        </div>
+
+        <a class="body-link" href="/tasks">Go back</a>
+    </form>
+</div>

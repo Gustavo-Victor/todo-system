@@ -1,0 +1,14 @@
+<div class="container">
+    {{#with task}}
+        <div class="task-container">
+            <h2>{{title}}</h2>
+            <p><strong>ID: </strong>{{id}}</p>
+            <p><strong>Description: </strong>{{description}}</p>
+            <p><strong>Status: </strong>{{completed}}</p>
+            <p><strong>Created at: </strong>{{createdAt}}</p>
+            <p><strong>Updated at: </strong>{{updatedAt}}</p>
+
+            <a href="/tasks" class="body-link">Go back</a>
+        </div>
+    {{/with}}
+</div>

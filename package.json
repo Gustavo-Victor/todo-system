@@ -1,0 +1,37 @@
+{
+  "name": "todo-system",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js localhost 3000"
+  },
+  "keywords": [
+    "mvc",
+    "express",
+    "handlebars",
+    "node.js",
+    "nodejs",
+    "javascript",
+    "mysql",
+    "mysql2",
+    "sequelize",
+    "todo",
+    "todo app",
+    "todo system"
+  ],
+  "author": "Gustavo Victor",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.1",
+    "express-handlebars": "^7.1.2",
+    "mysql2": "^3.9.2",
+    "sequelize": "^6.37.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0"
+  }
+}
